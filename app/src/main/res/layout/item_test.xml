@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="我爱我的祖国"
+        android:text="我爱小狗"
         android:textColor="#333333"
         android:textSize="16sp" />
 
@@ -24,7 +24,7 @@
         android:layout_marginTop="10dp"
         android:ellipsize="end"
         android:maxLines="2"
-        android:text="祖国多美好，我爱他，我爱我的祖国祖国多美好，我爱他，我爱我的祖国"
+        android:text="我爱小狗我爱小狗我爱小狗我爱小狗我爱小狗我爱小狗我爱小狗我爱小狗我爱小狗我爱小狗"
         android:textColor="#999999"
         android:textSize="14sp" />
 </LinearLayout>
