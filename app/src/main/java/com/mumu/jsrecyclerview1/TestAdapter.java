@@ -18,6 +18,13 @@ public class TestAdapter extends BaseQuickAdapter<TestEntity.ResultBean.ListBean
     }
 
     /**
+     * 增加一个构造方法，便于没有数据时候初始化适配器
+     */
+    public TestAdapter() {
+        super(R.layout.item_test);
+    }
+
+    /**
      * 继承BaseQuickAdapter后需要重写的方法
      *
      * @param helper view持有者，为重用view而设计，减少每次创建view的内存消耗
