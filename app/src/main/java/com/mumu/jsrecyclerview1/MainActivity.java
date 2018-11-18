@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
 
-        //初始化的时候默认没有数据，显示空布局
+        //初始化的时候默认没有数据，显示空的布局
         getData(1);
         refreshView();
         smartRefreshView();
